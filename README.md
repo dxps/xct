@@ -1,2 +1,2 @@
-# xct
-Cross Component Tracking - a general-purpose monitoring and tracking approach
+# XCT
+Cross Component Tracking (XCT) is using a general-purpose monitoring and tracking approach.
