@@ -2,6 +2,8 @@
 
 ## About
 
+This is the core engine of this solution. It is built using Play Framework.
+
 As a starter, I used play-java-rest-api-example, which is a REST API showing Play with a JPA backend.
 
 
