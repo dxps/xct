@@ -1,8 +1,10 @@
-[<img src="https://img.shields.io/travis/playframework/play-scala-rest-api-example.svg"/>](https://travis-ci.org/playframework/play-scala-rest-api-example)
+# XCT Engine
 
-# play-scala-rest-api-example
+This is the main server side component of an XCT deployment.
 
-This is the example project for [Making a REST API in Play](http://developer.lightbend.com/guides/play-rest-api/index.html).
+For now, all the details below are related to play-scala-rest-api-example that was used as the starter of this component project.
+
+
 
 ## Appendix
 
@@ -16,11 +18,12 @@ Once you have sbt installed, the following at the command prompt will start up P
 sbt run
 ```
 
-Play will start up on the HTTP port at http://localhost:9000/.   You don't need to deploy or reload anything -- changing any source code while the server is running will automatically recompile and hot-reload the application on the next HTTP request. 
+ 
 
 ### Usage
 
-If you call the same URL from the command line, you’ll see JSON. Using httpie, we can execute the command:
+If you call the same URL from the command line, you’ll see JSON.
+Using httpie, we can execute the command:
 
 ```
 http --verbose http://localhost:9000/v1/posts
